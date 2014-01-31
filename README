@@ -1,0 +1,16 @@
+Placing my Bash set-up files on GitHub.
+
+Say you sync down all these files in ~/sh_setup/ directory,
+then you need to add following code to your .profile (or .bashrc)
+to ensure eveything gets picked-up
+
+<code>
+  for file in ~/sh_setup/.{shopts,general,aliases};
+  do    
+      if [[ -f $file ]];
+      then
+	  echo "Sourcing $file"
+	  source $file
+      fi
+  done
+</code>
