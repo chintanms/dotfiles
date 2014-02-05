@@ -5,7 +5,7 @@
 # hence under custom
 
 # helpers
-alias deltree="/bin/rm -rf" # recursively force delete
+alias deltree="/bin/rm -rvf" # recursively force delete
 alias dirdiff="diff --brief"
 alias cls="clear"
 alias quit="exit"
