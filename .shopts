@@ -16,3 +16,5 @@ shopt -s cmdhist
 shopt -s histappend
 # do not try to complete and empty command
 shopt -s no_empty_cmd_completion
+# show when a back-ground process terminates immediately
+# set -b
