@@ -1,8 +1,8 @@
-#!/bin/bash
+#! /usr/bin/bash
 
 # These are commands/helpers I have gotten used to
-# not everyone may find these helpful, so feel free to remove
-# hence under custom
+# not everyone may find these helpful, so feel free to customize
+# hence in .custom
 
 # helpers
 alias deltree="/bin/rm -rvf" # recursively force delete
